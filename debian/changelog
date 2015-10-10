@@ -1,5 +1,5 @@
-hyphen-ml (0.8.0-1) unstable; urgency=low
+hyphen-ml (0.8.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #542236)
 
  -- Balasankar C <balasankarc@autistici.org>  Thu, 01 Oct 2015 21:55:37 +0530
