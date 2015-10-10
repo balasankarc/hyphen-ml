@@ -1,15 +1,20 @@
 Source: hyphen-ml
-Section: unknown
+Section: text
 Priority: optional
-Maintainer: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 9)
+Maintainer: Debian-IN Team <debian-in-workers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9), dh-buildinfo, dictionaries-common (>= 0.10)
 Standards-Version: 3.9.6
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/hyphen-ml.git
-#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/hyphen-ml.git;a=summary
+Vcs-Git: git://anonscm.debian.org/debian-in/hyphen-ml.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-in/hyphen-ml.git
+Homepage: http://wiki.smc.org.in/Hyphenation
 
 Package: hyphen-ml
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Malayalam hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Malayalam
+ script.
